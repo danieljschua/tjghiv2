@@ -1,4 +1,8 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content']
+    target: 'static',
+    modules: ['@nuxt/content'],
+    router: {
+        base: '/tjghiv2/',
+    },
 })
